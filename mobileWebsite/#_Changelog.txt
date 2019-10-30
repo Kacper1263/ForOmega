@@ -1,0 +1,24 @@
+﻿[18.08.2018]
+- Nowa opcja w wycenie ( Wymiana HDD na SSD )
+- Nowe zdjęcie czyszczeia chłodzenia
+- Nowa usługa ( Wymiana HDD na SSD )
+
+[15.07.2018]
+- Dodanie nowej strony do wyceny usług oraz link do tej strony
+
+[12.05.2018]
+- Dodanie skryptu zmieniającego stronę mobilną na desktopową po kliknięciu w przeglądarce przycisku "Wersja na komputer"
+
+[5.05.2018]
+- Optymalizacja kodu:
+    - Skrypt wykrywający obrót strony został przeniesiony do nowych plików w katalogu js
+
+[4.05.2018]
+- Poprawa responsywności strony po obrocie:
+    - Mniejszy tekst, nagłówek, obrazek
+
+
+[1.05.2018]
+
+- Responsywne menu
+- Zdjęcie na stronie głównej (kontakt)

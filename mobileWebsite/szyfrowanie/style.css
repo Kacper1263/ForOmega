@@ -1,0 +1,32 @@
+body
+{
+	background-color: #303030;
+}
+.box
+{
+	width: 600px;
+	height: 35px;
+	border-radius: 5px;
+	font-size: 25px;
+	resize: both;
+	overflow: auto;
+}
+#pojemnik
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+}
+input
+{
+	float: left;
+}
+#przycisk
+{
+	width: 100px;
+	height: 30px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 16px;
+}

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8" />
+	<title> Mobile detect </title>
+	
+
+	<meta name="author" content="Omega" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+	
+	<script src="mobile-detect.js"></script>
+	
+	</head>
+
+<body >
+	
+	<script>
+	    var detector = new MobileDetect(window.navigator.userAgent)
+		
+	    console.log( "Mobile: " + detector.mobile());
+		console.log( "Phone: " + detector.phone());
+		console.log( "Tablet: " + detector.tablet());
+		console.log( "OS: " + detector.os());
+		console.log( "userAgent: " + detector.userAgent());
+		console.log( " ");
+		
+		
+		if (detector.tablet() == null) {
+			console.log( "Telefon / Komputer" );
+			alert( "Telefon / Komputer" );
+			}
+		if (detector.tablet() !== null) {
+			console.log( "Tablet" );
+			alert( "Tablet" );
+			}
+			
+		alert( "Mobile: " + detector.mobile() + "\nPhone: " + detector.phone() + "\nTablet: " + detector.tablet() + "\nOS: " + detector.os() + "\nuserAgent: " + detector.userAgent());
+			
+	</script>
+	
+</body>
+</html>

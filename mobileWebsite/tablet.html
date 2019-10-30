@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8" />
+	<title> Tablet - Omega Serwis </title>
+	<meta name="description" content="Sprawdź jakiej rozdzielczości aktualnie używasz." />
+	<meta name="keywords" content="Omega, Serwsi, komputerów, Skawina, naprawa, kart, graficznych, Małopolska, czyszczenie" />
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.1/mobile-detect.min.js"></script>
+	<meta name="author" content="Omega" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+	
+	</head>
+
+<body >
+
+ <p id="demo"></p>
+
+<script>
+var mobileCheck = {
+  ios: (function(){
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  }()),
+  android: (function(){
+    return navigator.userAgent.match(/Android/i);
+  }()),
+  blackBerry: (function(){
+    return navigator.userAgent.match(/BB10|Tablet|Mobile/i);
+  }()),
+  windows: (function(){
+    return navigator.userAgent.match(/IEMobile/i);
+  }()),
+  smartphone: (function(){
+    return (window.innerWidth <= 384 && window.innerHeight <= 640);
+  }()),
+  tablet: (function(){
+    return (navigator.userAgent.match(/Tablet|iPad|iPod/i) && window.innerWidth <= 1280 && window.innerHeight <= 800);
+  }()),
+  all: (function(){
+    return navigator.userAgent.match(/Android|BlackBerry|Tablet|Mobile|iPhone|iPad|iPod|Opera Mini|IEMobile/i);
+  }())
+};
+alert(mobileCheck);
+</script> 
+</body>
+</html>

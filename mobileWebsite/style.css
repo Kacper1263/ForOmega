@@ -1,0 +1,224 @@
+body
+{
+	background-color: #dddddd;
+	color: #404040;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin: 0px;
+	
+}
+
+#menu
+{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+#menu1
+{
+	float: right;
+	height: 150px;
+	text-align: center;
+	margin-top: 10px;
+}
+#menu2
+{
+	float: right;
+	
+	height: 150px;
+	text-align: center;
+	
+}
+.menu-link
+{
+	color: #383838;
+	padding: 40px;
+	font-size: 35px;
+	text-align: center;
+	width: 250px;
+}
+a
+{
+	color: black;
+	text-decoration: none;
+}
+#pojemnik
+{
+	margin-top: 300px;
+    height: 5000px;
+    margin-bottom: 200px;
+	
+}
+.pudełko
+{
+	text-align: center;
+	background-color: white;
+	padding: 60px;
+	border-radius: 26px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.pudełko2
+{
+	text-align: center;
+	background-color: #303030;
+	padding: 60px;
+	border-radius: 26px;
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.pudełko3
+{
+	text-align: center;
+	background-color: #2f538a;
+	padding: 60px;
+	
+	font-size: 30px;
+	height: 330px;
+}
+.kontakt
+{
+	color: #ffffff;
+	text-align: center;
+	font-size: 45px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	text-justify: inter-word;
+	
+}
+.godziny
+{
+	color: #ffffff;
+	text-align: center;
+	font-size: 40px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-justify: inter-word;
+}
+.opis
+{
+	text-align: justify;
+	font-size: 40px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-justify: inter-word;
+}
+.zdj
+{
+	width: 70%;
+	border-radius: 20px;
+}
+.wuslugilink
+{
+	text-align: center;
+	color: #3454D1;
+	font-size: 48px;
+	padding: 40px;
+	margin: 10px;
+}
+
+
+
+iframe {
+    width: 95%;
+    
+}
+
+.nawigacja {
+        color: #0099ff;
+}
+
+#logoindex {
+    width: 100%;
+    height: 600px;
+    background: url("img/omega_t%C5%82o2.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+   
+}
+#tel
+{
+	   width: 100%;
+    height: 350px;
+    background: url("img/tel.png") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+   
+}
+#logonapisA {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin-top: -80px;
+}
+
+
+
+#logonapisB {
+    color: #fff;
+    font-size: 40px;
+}
+
+#logonapisC {
+    font-size: 30px;
+    padding: 20px;
+    color: #fff;
+    background-color: #3454D1;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.koszt
+{
+	color: #0099ff;
+}
+#mobile-link
+{
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border-radius: 0.25rem;
+	padding: 20px;
+	background-color: #D12F46;
+	width: 270px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#a-mobile-link
+{
+	color: #ffffff;
+}
+#wycen
+{
+	background-color: #4264F5;
+	padding:15px;
+	border-radius: 15px;
+}
+#hrefwycen
+{
+	width: 400px;
+	color:#ffffff;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 10px;
+}

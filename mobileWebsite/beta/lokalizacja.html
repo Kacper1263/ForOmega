@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8" />
+	<title> Lokalizacja - Profesjonalny serwis z wieloletnim doświadczeniem. </title>
+	<meta name="description" content="Naprawa komputerów stacjonarnych, laptopów, kart graficznych. Szybko i tanio." />
+	<meta name="keywords" content="Omega, Serwsi, komputerów, Skawina, naprawa, kart, graficznych, Małopolska, czyszczenie" />
+	<meta name="author" content="Omega" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="js/obrotStr2.js"> </script>
+	
+	<script src="mobile-detect.js"></script>
+	
+	</head>
+
+<body>
+	<div id="pojemnik" style="height: auto;">
+		<div id="content">
+			
+			<div id="pudelko-lokalizacja" class="pudełko" style="margin-top: 360px;">
+				<div class="uslugi">
+                    <h1 style="text-align: center; color: #404040;"> Lokalizacja </h1>
+                    <div class="opis" style="font-size: 27px;">
+						Nasz serwis znajduję się na ulicy Bukowskiej 3 w Skawinie. Użyj <a class="nawigacja" href="https://goo.gl/maps/T9ynai1Yssm" target="_blank">tego linku</a>, aby uruchomić nawigację w swoim telefonie. 
+                        <br/>
+                        <br/>
+                    </div>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.360319156523!2d19.827661315419043!3d49.96710097941159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165d890441ef01%3A0x8cb70a73fef11c69!2sOmega+Serwis+Komputer%C3%B3w+Przeno%C5%9Bnych!5e0!3m2!1spl!2spl!4v1523627383122" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                 </div>
+			</div>
+			
+			
+		</div>
+	</div>
+	
+	
+	
+	<div id="menu">
+        <a href="index.html"> <img src="img/Omega.png" id="logo-menu" width="250px" height="250px" style="margin-left: 10px; margin-top: 25px; float: left;" /> </a>
+				<div id="menu1">
+					<a href="nasze-uslugi.html" > <div id="str-usl" class="menu-link" style="float: right;" >		Nasze usługi	</div> </a>
+					<a href="index.html" > <div id="str-gl" class="menu-link" style="float: right;" >		Strona główna	</div> </a>
+					<div style="clear: both;" />
+				</div>
+				<div style="clear: both;" />
+				<br/>
+				
+				<div id="menu2">
+					<a href="http://status.omegaserwis.com.pl/" target="_blank"> <div id="str-stat" class="menu-link" style="float: right;" >		Status naprawy	</div> </a>
+					<a href="#" > <div id="str-lok" class="menu-link" style="float: right; color: #3C5DDE;" >	Lokalizacja		</div> </a>
+					<div style="clear: both;" />
+				</div>
+				<div style="clear: both;" />
+		</div>
+<script>
+
+	var detector = new MobileDetect(window.navigator.userAgent)
+
+	function getOS() {
+  var userAgent = window.navigator.userAgent,
+      platform = window.navigator.platform,
+      macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+      windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+      iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+      os = null;
+
+  if (macosPlatforms.indexOf(platform) !== -1) {
+    os = 'Mac OS';
+  } else if (iosPlatforms.indexOf(platform) !== -1) {
+    os = 'iOS';
+  } else if (windowsPlatforms.indexOf(platform) !== -1) {
+    os = 'Windows';
+  } else if (/Android/.test(userAgent)) {
+    os = 'Android';
+  } else if (!os && /Linux/.test(platform)) {
+    os = 'Linux';
+  }
+
+  return os;
+}
+if (detector.tablet() !== null)
+{
+	location.replace("https://omegaserwis.com.pl");
+}
+ if (getOS() !== "Android")
+{
+if (getOS() !== "iOS")
+{
+location.replace("https://omegaserwis.com.pl");
+// alert("To nie jest android. To jest: " + getOS());
+console.log("Twój system to: " + getOS());
+}
+}
+</script>		
+</body>
+</html>
